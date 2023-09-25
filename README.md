@@ -18,7 +18,8 @@ in business. Working in many companies taught me that the right attitude and cre
 - [Visual Analysis](https://github.com/RMarinoS/portfolio/blob/main/go_bike_%20visual_analysis-presentation.ipynb)  
   In this project, I present an example of a typical visual analysis. Those analysis are crutial for any strong data analyst as are usually the start point of any project.  
 
-  ## Relevant experience
+## Relevant experience
+
 ### **Senior Product Data Analyst** at Adevinta
   Barcelona, Spain 01/2022 - Present  
 - Design new features tracking strategy by defining new events and their rationale.
