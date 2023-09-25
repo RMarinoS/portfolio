@@ -23,11 +23,11 @@ in business. Working in many companies taught me that the right attitude and cre
   Barcelona, Spain 01/2022 - Present  
 - Design new features tracking strategy by defining new events and their rationale.
 - Propose and lead a discovery project which produced new data products: predictive models and UX Research focus dashboard.
-- Reduce fraud tickets received by capturing 10% more phone numbers after replacing feature regex by a fine-tuned LLM.
+- Reduce fraud tickets received by capturing 10% more phone numbers after replacing feature regex by a fine-tuned LLM.  
   
 **Python developer** as Freelance
   Remote, Spain 10/2021 - 07/2022  
-- Developed and implemented web scraping bots to boost clients data collection process using python.
+- Developed and implemented web scraping bots to boost clients data collection process using python.  
   
 **Global Campaign Analyst** at Omega CRM
   Barcelona, Spain 06/2020 - 01/2022  
