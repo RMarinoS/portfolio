@@ -10,7 +10,7 @@ in business. Working in many companies taught me that the right attitude and cre
 ## Education
 
 
-## Experience
+## Relevant experience
 ### **Senior Product Data Analyst** at Adevinta
   Barcelona, Spain 01/2022 - Present
 ● Design new features tracking strategy by defining new events and their rationale.
@@ -23,7 +23,15 @@ in business. Working in many companies taught me that the right attitude and cre
   Barcelona, Spain 06/2020 - 01/2022
 ● Developed new and more insightful metrics to be added in Tableau dashboards rising views in a 14%
 ● Increase open rate by 7% after introducing experimentation techniques in the marketing campaign flow which improved the subject line’s wording.
-### **Marketing Data Analyst** at Merkle
-  Barcelona, Spain 05/2018 - 12/2020
-● Define segment strategy, the next-best-action in each step and channel selection in a project for automating user journey.
-● Results showed that users' engagement increased around 20% and 5% in sales.
+
+## Projects
+
+- [AB Testing](https://github.com/RMarinoS/portfolio/blob/main/ab_test_round_roasted_matched_pairs.py)
+  This project is a good example of an AB testing because is not a classic one.
+  The difference is that we are not going to split the variants randomly, but finding the most similar controls for each target. Click to know more!
+- [Predicting Model](https://github.com/RMarinoS/portfolio/blob/main/loans_prediction_model.py)
+  Models in the data analyst role are very common nowdays. Besides that other jobs are more experienced building them, it is essential to know the basics and understand how they can be 
+  used to improve your own projects.
+- [Visual Analysis](https://github.com/RMarinoS/portfolio/blob/main/go_bike_%20visual_analysis-presentation.ipynb)
+  In this project, I present an example of a typical visual analysis. Those analysis are crutial for any strong data analyst as are usually the start point of any project.  
+  
