@@ -5,7 +5,7 @@ Senior Data Analyst with 6+ years of experience including product and marketing 
 person, I have transformed raw data to decision-making dashboards; gaining an holistic point of view of data
 in business. Working in many companies taught me that the right attitude and creativity remove any blocker.
 
-#### [LinkedIn]("https://www.linkedin.com/in/ramón-mariño-solís-490585131/")
+#### [LinkedIn]("https://www.linkedin.com/in/ramón-mariño-solís-490585131/")  
 
 ## Relevant experience
 ### **Senior Product Data Analyst** at Adevinta
@@ -23,12 +23,12 @@ in business. Working in many companies taught me that the right attitude and cre
 
 ## Projects
 
-- [AB Testing](https://github.com/RMarinoS/portfolio/blob/main/ab_test_round_roasted_matched_pairs.py)
+- [AB Testing](https://github.com/RMarinoS/portfolio/blob/main/ab_test_round_roasted_matched_pairs.py)  
   This project is a good example of an AB testing because is not a classic one.
   The difference is that we are not going to split the variants randomly, but finding the most similar controls for each target. Click to know more!
-- [Predicting Model](https://github.com/RMarinoS/portfolio/blob/main/loans_prediction_model.py)
+- [Predicting Model](https://github.com/RMarinoS/portfolio/blob/main/Creditworthiness%20Project%20-%20Ram%C3%B3n%20Mari%C3%B1o%20Sol%C3%ADs.pdf)  
   Models in the data analyst role are very common nowdays. Besides that other jobs are more experienced building them, it is essential to know the basics and understand how they can be 
-  used to improve your own projects.
-- [Visual Analysis](https://github.com/RMarinoS/portfolio/blob/main/go_bike_%20visual_analysis-presentation.ipynb)
+  used to improve your own projects. In addition, the code regarding the model is available [here](https://github.com/RMarinoS/portfolio/blob/main/loans_prediction_model.py)  
+- [Visual Analysis](https://github.com/RMarinoS/portfolio/blob/main/go_bike_%20visual_analysis-presentation.ipynb)  
   In this project, I present an example of a typical visual analysis. Those analysis are crutial for any strong data analyst as are usually the start point of any project.  
   
