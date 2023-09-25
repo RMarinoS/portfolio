@@ -5,10 +5,7 @@ Senior Data Analyst with 6+ years of experience including product and marketing 
 person, I have transformed raw data to decision-making dashboards; gaining an holistic point of view of data
 in business. Working in many companies taught me that the right attitude and creativity remove any blocker.
 
-#### <a LinkedIn url="https://www.linkedin.com/in/ramón-mariño-solís-490585131/"></a>
-
-## Education
-
+#### [LinkedIn]("https://www.linkedin.com/in/ramón-mariño-solís-490585131/")
 
 ## Relevant experience
 ### **Senior Product Data Analyst** at Adevinta
