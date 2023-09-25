@@ -77,7 +77,7 @@ for row_index, row in df_stores.iterrows():
 #Loading transactions data
 df_transactions = pd.read_csv('RoundRoastersTransactions.csv')
 df_transactions['invoice_date'] = pd.to_datetime(df_transactions['Invoice Date'])
-#Filtering the data for having only the data for the dates 
+#Filtering the data for having only the data for the datesof the experiment.
 for row_index, row in df_transactions.iterrows():
     if row['invoice_date'].year == 2015:
         week = (np.floor((pd.to_datetime(row['invoice_date'])-pd.to_datetime('2015-04-29')).days / 7 )).astype('int64')
@@ -129,7 +129,7 @@ co_target_stores = df_paired_co.query('is_control == False').index.unique().to_l
 il_control_stores = df_paired_il.query('is_control == True').index.unique().to_list()
 co_control_stores = df_paired_co.query('is_control == True').index.unique().to_list()
 
-#With the paired done, we will run the anaylisis for each stores
+#With the pairing done, we will run the anaylisis for each stores
 df_abtest_results = pd.DataFrame(columns=['is_control'
                                           ,'state'
                                           ,'gross_t_statistic'
@@ -138,6 +138,7 @@ df_abtest_results = pd.DataFrame(columns=['is_control'
                                           ,'sales_p_value']
                                 , index=[0,1,2,3])
 index = 0
+#We create a loop for analysing all target-control groups
 for store_list in [il_control_stores, il_target_stores,co_control_stores,co_target_stores]:
     gross_t_statistic, gross_p_value = abtest_analysis(df_agg.query(f'StoreID in {store_list} & year == 2016 & week >= 0 & week < 12')['weekly_total_gross'].to_list()
                                                         ,df_agg.query(f'StoreID in {store_list} & year == 2015 & week >= 0 & week < 12')['weekly_total_gross'].to_list(),alpha=0.05)
@@ -161,6 +162,7 @@ for store_list in [il_control_stores, il_target_stores,co_control_stores,co_targ
             df_abtest_results.at[index,'is_control'] = True
         else:
             df_abtest_results.at[index,'is_control'] = False
+    #We store all the statistics into the dataframe
     df_abtest_results.at[index,'gross_t_statistic'] = gross_t_statistic
     df_abtest_results.at[index,'gross_p_value'] = gross_p_value
     df_abtest_results.at[index,'sales_t_statistic'] = sales_t_statistic
@@ -172,7 +174,7 @@ for store_list in [il_control_stores, il_target_stores,co_control_stores,co_targ
     sales_lift_total = sales_actual_amount - sales_baseline
     sales_lift_percentage = (sales_lift_total/sales_baseline)*100
     #Adding the values to the dataframe
-    #Sales
+    #Gross lift
     df_abtest_results.at[index,'gross_lift_total'] = gross_lift_total
     df_abtest_results.at[index,'gross_lift_percentage'] = gross_lift_percentage
     #Sales
@@ -180,7 +182,7 @@ for store_list in [il_control_stores, il_target_stores,co_control_stores,co_targ
     df_abtest_results.at[index,'sales_lift_percentage'] = sales_lift_percentage
     #Passing the new index value for the next iteration
     index += 1
-
+#All the results are stored in a DataFrame in order to easily accesible later
 df_abtest_results_per_store = pd.DataFrame(columns=['store_id'
                                           ,'state'
                                           ,'is_control'
