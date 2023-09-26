@@ -1,11 +1,11 @@
 # add the following to _config.yml file
 title: Ramón Mariño Solís
 theme: jekyll-theme-minimal
-logo: "./img/profile_pic_resized.jpg"
+logo: ./img/profile_pic_resized.jpg
 description: Welcome to my portfolio! Find here a sample of my professional projects and experience, but do not hesitate to contact me!
   <br>  <a href="mailto:ramon.marnino.solis@gmail.com">
-      <img src="./img/gmail-logo-icon.png" alt="gmail-icon" style="width:32px;height:32px;" id="email-icon">
+      <img src="./img/gmail-logo-icon.png" alt="gmail-icon" style="width:16px;height:16px;">
     </a>
     <a href="https://www.linkedin.com/in/ramón-mariño-solís-490585131/">
-      <img src="./img/LinkedIn_icon.svg.png" alt="linkedin-icon" style="width:30px;height:30px;" id="linkedin-icon">
+      <img src="./img/LinkedIn_icon.svg.png" alt="linkedin-icon" style="width:15px;height:15px;">
     </a>
