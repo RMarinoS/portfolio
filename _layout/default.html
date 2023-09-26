@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo", class="responsive"/>
@@ -29,6 +29,7 @@
         <a href="https://www.linkedin.com/in/ramón-mariño-solís-490585131/">
           <img src="/img/LinkedIn_icon.svg.png" alt="linkedin-icon" style="width:30px;height:30px;">
         </a>
+      </header>
       <section>
 
       {{ content }}
