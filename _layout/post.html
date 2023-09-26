@@ -12,3 +12,13 @@ layout: default
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+{% if page.featured_images %}
+<div class="featured-image">
+  <a href="mailto:ramon.marnino.solis@gmail.com">
+    <img src="/img/gmail-logo-icon.png" alt="gmail-icon" style="width:32px;height:32px;">
+  </a>
+  <a href="https://www.linkedin.com/in/ramón-mariño-solís-490585131/">
+    <img src="/img/LinkedIn_icon.svg.png" alt="linkedin-icon" style="width:30px;height:30px;">
+  </a></div>
+{% endif %}
