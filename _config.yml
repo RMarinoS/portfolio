@@ -1,5 +1,5 @@
 # add the following to _config.yml file
 title: Ramón Mariño Solís
 theme: jekyll-theme-minimal
-logo: /img/profile_pic.jpg
+logo: /img/profile_pic_resized.jpg
 show_downloads: "true"
