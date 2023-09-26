@@ -5,14 +5,14 @@ Senior Data Analyst with 6+ years of experience including product and marketing 
 person, I have transformed raw data to decision-making dashboards; gaining an holistic point of view of data
 in business. Working in many companies taught me that the right attitude and creativity remove any blocker.
 
-[LinkedIn]("https://www.linkedin.com/in/ramón-mariño-solís-490585131/")  
-
 ## Projects
 
 - [AB Testing](https://github.com/RMarinoS/portfolio/blob/main/ab_test_round_roasted_matched_pairs.py)  
   This project is a good example of an AB testing because is not a classic one.  
+
 - [Predicting Model](https://github.com/RMarinoS/portfolio/blob/main/Creditworthiness%20Project%20-%20Ram%C3%B3n%20Mari%C3%B1o%20Sol%C3%ADs.pdf)  
   Besides that other data roles are more experienced building models, it is essential to know the basics and understand how they can be used to improve anslytical projects. The code is available [here](https://github.com/RMarinoS/portfolio/blob/main/loans_prediction_model.py).  
+
 - [Visual Analysis](https://github.com/RMarinoS/portfolio/blob/main/go_bike_%20visual_analysis-presentation.ipynb)  
   This project is an example of a typical visual analysis using python.
 
