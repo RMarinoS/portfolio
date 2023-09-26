@@ -4,8 +4,8 @@ theme: jekyll-theme-minimal
 logo: ./img/profile_pic_resized.jpg
 description: Welcome to my portfolio! Find here a sample of my professional projects and experience, but do not hesitate to contact me!
   <br>  <a href="mailto:ramon.marnino.solis@gmail.com">
-      <img src="./img/gmail-logo-icon.png" alt="gmail-icon" style="width:16px;height:16px;">
+      <img src="./img/gmail-logo-icon.png" alt="gmail-icon" style="width:24px;height:24px;">
     </a>
     <a href="https://www.linkedin.com/in/ramón-mariño-solís-490585131/">
-      <img src="./img/LinkedIn_icon.svg.png" alt="linkedin-icon" style="width:15px;height:15px;">
+      <img src="./img/LinkedIn_icon.svg.png" alt="linkedin-icon" style="width:20px;height:20px;">
     </a>
